@@ -1,0 +1,37 @@
+h1 {
+    margin: 0 0 30px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.accordion {
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 5px 30px rgba(206, 218, 228, 0.9);
+}
+
+.card:nth-child(2) {
+    border-top: 1px solid #DEE6E9;
+    border-bottom: 1px solid #DEE6E9;
+}
+
+.card-btn {
+    color: #000;
+    cursor: pointer;
+    padding: 18px 60px;
+    text-align: left;
+}
+
+.card-btn:hover, .card-btn.active {
+    color: #66CDAA;
+}
+
+.content {
+    padding: 0 60px 25px;
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
